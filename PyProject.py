@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
 df = pd.read_csv('File_Analyst/chipotle.tsv', sep='\t')
 df.item_price = df.item_price.apply(lambda x : float(x.replace('$','')))
 df["total_price"] = df["quantity"] * df["item_price"]
