@@ -1,7 +1,13 @@
 import numpy as np
 # import timeit
 
-arr = np.random.random(100)
+human_height = np.array([1.88,1.90,1.63,1.5,1.85])
+print(np.sort(human_height))
+print(np.argsort(human_height))
+# print(human_height.mean())
+# print(human_height.var())
+# print(human_height.std())
+# print(arr[:10])
 # t = timeit.timeit("np.sum(arr)", globals=globals(), number=100000)
 # t2 = timeit.timeit("sum(arr)", globals=globals(), number=100000)
 # print(t)
