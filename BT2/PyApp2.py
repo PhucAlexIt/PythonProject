@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-path = r'./img/Beautiful.png'
+path = r'D:\ThuMucCuaTui\Programmer\PythonApp\img\AirportImg.jpg'
 img = cv.imread(path)
 
 
