@@ -41,4 +41,5 @@ def histEqual(gray, l):
 
 
 print("Histogram: ",histCal(img, L))
-print("Histogram: ",histEqual(img, L))
+print(histEqual(img, L))
+
